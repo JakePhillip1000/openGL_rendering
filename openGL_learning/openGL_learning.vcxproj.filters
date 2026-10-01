@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shader_files">
+      <UniqueIdentifier>{14aa34e3-cc92-4810-8eee-09ab558ccd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{24d69a25-a1cd-4085-b25f-c06c390dde81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="images">
+      <UniqueIdentifier>{af542b3e-6b6c-47e1-983b-c0202c198000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{94eff5c1-299e-4368-ad14-858a5f6a98b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io">
+      <UniqueIdentifier>{5389b866-b089-49c0-9068-dd48c186a9d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics">
+      <UniqueIdentifier>{631d9bd7-01e8-474e-b7f9-cdef78fe4b4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphics\models">
+      <UniqueIdentifier>{c2891f8e-63fd-4dc1-8bfc-d78299e7421c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\glad\src\glad.c">
+      <Filter>shader_files</Filter>
+    </ClCompile>
+    <ClCompile Include="matrix_operations.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>shader_files</Filter>
+    </ClCompile>
+    <ClCompile Include="Joystick.cpp">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="screen.cpp">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>graphics</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="object.fs">
+      <Filter>assets</Filter>
+    </None>
+    <None Include="object.vs">
+      <Filter>assets</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>shader_files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ACE\Downloads\stb_image.h">
+      <Filter>shader_files</Filter>
+    </ClInclude>
+    <ClInclude Include="Joystick.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="cube.hpp">
+      <Filter>graphics\models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\Pictures\images\ai_hoshino.jpg">
+      <Filter>images</Filter>
+    </Image>
+    <Image Include="..\..\Pictures\images\minami.png">
+      <Filter>images</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
