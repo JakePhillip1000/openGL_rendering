@@ -2,6 +2,7 @@
 #include "Keyboard.h"
 #include "Mouse.h"
 
+// This file use for screen framebuffer and resolution control 
 unsigned int Screen::SCR_WIDTH = 800;
 unsigned int Screen::SCR_HEIGHT = 600;
 
