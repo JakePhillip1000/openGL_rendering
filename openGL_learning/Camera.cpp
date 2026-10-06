@@ -1,4 +1,7 @@
+#include <iostream>
 #include "Camera.h"
+
+using namespace std;
 
 Camera::Camera(glm::vec3 position)
     : cameraPos(position),
@@ -9,6 +12,8 @@ Camera::Camera(glm::vec3 position)
     zoom(45.0f),
     cameraFront(glm::vec3(0.0f, 0.0f, -1.0f)){
     updateCameraVectors();
+
+    // std::cout << "Camera control" << std::endl;
 }
 
 void Camera::updateCameraDirection(double dx, double dy) {
